@@ -42,7 +42,7 @@
       {
         "dropins": [
           {
-            "contents": "[Service]\n# Override Execstart in main unit\nExecStart=\n# Add new Execstart with `-` prefix to ignore failure`\nExecStart=-/usr/sbin/agetty --autologin core --noclear %I $TERM\n",
+            "contents": "[Service]\n# Override Execstart in main unit\nExecStart=\n# Add new Execstart with '-' prefix to ignore failure'\nExecStart=-/usr/sbin/agetty --autologin core --noclear %I $TERM\n",
             "name": "autologin-core.conf"
           }
         ],
